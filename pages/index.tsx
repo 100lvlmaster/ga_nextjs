@@ -9,6 +9,14 @@ const Home: NextPage = () => {
       action: "tap_button",
       params: {
         tap: 1,
+        tap1: 2,
+        user: {
+          name: "Aksay",
+          address: [
+            { name: "sdjn", name1: "jsc" },
+            { name: "sdjn", name1: "jsc" },
+          ],
+        },
       },
     });
     alert("called analytics");
